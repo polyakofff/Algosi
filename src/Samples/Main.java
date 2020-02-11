@@ -1,27 +1,17 @@
-import java.io.*;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.*;
+package Samples;
 
-/*
-Оформление
-*/
+import java.io.*;
+import java.util.*;
 
 public class Main {
 
     static FastReader in;
     static PrintWriter out;
-    static Random rand = new Random();
-    static final int INF = (int) (1e9 + 10);
-    static final int MOD = (int) (1e9 + 7);
-    static final int N = (int) (1e6);
-    static final int LOGN = 60;
 
     static void solve() {
-        out.println("LOL");
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         in = new FastReader(System.in);
 //        in = new FastReader(new FileInputStream("input.txt"));
         out = new PrintWriter(System.out);
@@ -30,9 +20,8 @@ public class Main {
 
         int q = 1;
 
-        while (q-- > 0) {
+        while (q-- > 0)
             solve();
-        }
 
         out.close();
     }
